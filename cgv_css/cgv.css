@@ -233,6 +233,22 @@ ul a:hover {
 }
 
 /* main content */
+.up-to-top {
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 5px;
+    bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up-to-top > img {
+    width: 15px;
+}
 content {
     width: 100%;
     margin: 0 auto;
